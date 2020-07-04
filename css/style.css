@@ -152,6 +152,33 @@ img {
   line-height: 1.5;
 }
 
+.services-how-we-work {
+  background-color: #2d2640;
+  background-image: url(../images/bg-pattern-intro-right-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.how-we-work-header {
+  font-size: 40px;
+}
+
+.how-we-work-button {
+  background-color: transparent;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+  border: 1px solid #fff;
+}
+
+.footer-section {
+  background-image: url();
+}
 @media screen and (min-width: 768px) {
   .navbar {
     display: flex;
