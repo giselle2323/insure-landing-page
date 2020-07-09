@@ -202,6 +202,9 @@ img {
 .footer-bottom {
   display: flex;
   flex-direction: column;
+}
+.footer-card {
+  display: flex;
   text-align: center;
 }
 
