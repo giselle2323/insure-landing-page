@@ -177,8 +177,34 @@ img {
 }
 
 .footer-section {
-  background-image: url();
+  font-weight: 400;
+  background-image: url(../images/bg-pattern-footer-mobile.svg);
+  background-position: top center;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  width: 100%;
 }
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-header {
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer-social-links {
+  text-align: center;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .navbar {
     display: flex;
