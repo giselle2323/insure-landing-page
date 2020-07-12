@@ -90,7 +90,7 @@ img {
   font-family: 'DM Serif Display', serif;
   padding: 20px 10px;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 58px;
 }
 
 .intro-text-paragraph {
@@ -113,20 +113,22 @@ img {
 
 .services {
   width: 100%;
+  padding: 0 0 5rem 0;
 }
 
 .services-header-container {
   width: 100%;
-  padding: 20px;
+  padding: 50px 20px 20px 20px;
   text-align: center;
 }
 
 .services-header {
+  padding: 20px 10px;
   font-size: 40px;
 }
 
 .services-horizontal-rule {
-  width: 200px;
+  margin: 20px;
 }
 
 .services-card-container {
@@ -178,11 +180,14 @@ img {
 
 .footer-section {
   font-weight: 400;
+  font-family: 'Karla', sans-serif;
   background-image: url(../images/bg-pattern-footer-mobile.svg);
   background-position: top center;
   background-color: #fafafa;
   background-repeat: no-repeat;
+  background-size: contain;
   width: 100%;
+  padding: 5rem 0 0 0;
 }
 
 .footer-top {
@@ -190,9 +195,12 @@ img {
   flex-direction: column;
   text-align: center;
 }
+
 .footer-header {
-  font-weight: 400;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
   text-align: center;
+  padding: 10px;
 }
 
 .footer-social-links {
@@ -203,9 +211,32 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 .footer-card {
   display: flex;
   text-align: center;
+  padding: 20px;
+}
+
+.footer-list {
+  width: 100%;
+  list-style: none;
+}
+
+.footer-list li {
+  padding: 10px;
+}
+
+.footer-list .footer-link-header {
+  padding: 20px 10px;
+}
+
+.footer-link {
+  font-weight: 700;
+}
+
+.footer-rule {
+  margin: 20px 30px;
 }
 
 @media screen and (min-width: 768px) {
