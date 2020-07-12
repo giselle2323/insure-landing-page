@@ -83,7 +83,8 @@ img {
   color: #fff;
   background-image: url(../images/bg-pattern-intro-left-mobile.svg), url(../images/bg-pattern-intro-right-mobile.svg);
   background-position: left top, right bottom;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
 }
 
 .intro-text-header {
@@ -106,7 +107,7 @@ img {
   color: #fff;
   width: 150px;
   height: 50px;
-  margin: 10px;
+  margin: 20px;
 }
 
 /* Services  */
@@ -128,13 +129,14 @@ img {
 }
 
 .services-horizontal-rule {
-  margin: 20px;
+  margin: 5rem 9rem 2rem 9rem;
 }
 
 .services-card-container {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 0 0 6rem 0;
 }
 
 .services-card {
@@ -159,6 +161,7 @@ img {
   background-image: url(../images/bg-pattern-intro-right-mobile.svg);
   background-repeat: no-repeat;
   background-position: top right;
+  background-size: contain;
   margin: 20px;
   padding: 20px;
   color: #fff;
@@ -166,7 +169,8 @@ img {
 }
 
 .how-we-work-header {
-  font-size: 40px;
+  font-size: 50px;
+  padding: 20px;
 }
 
 .how-we-work-button {
