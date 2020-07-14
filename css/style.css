@@ -18,32 +18,48 @@ body {
 .nav-links-container {
   background-color: #2d2640;
 }
+
 .main-nav {
   list-style-type: none;
   display: none;
+  background-image: url(../images/bg-pattern-mobile-nav.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+  padding: 0 0 22rem 0;
+  margin: -0.4rem 0 0 0;
 }
+
 .navbar-header {
   padding: 20px;
 }
 
-.nav-links, .logo {
+.nav-links {
   text-decoration: none;
   color: #fff;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .main-nav li {
   text-align: center;
- padding: 20px;
+  padding: 20px;
   color: #fff;
 }
 
 .logo {
   display: inline-block;
-  font-size: 29px;
+  font-size: 37px;
   font-weight: 700;
-  margin-top: 10px;
+  margin-top: -5px;
   margin-left: 20px;
   color: #2d2640;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #2d2640;
+  text-decoration: none;
 }
 
 .navbar-toggle {
@@ -116,6 +132,21 @@ img {
   width: 150px;
   height: 50px;
   margin: 20px;
+}
+
+.right-pattern {
+  position: absolute;
+  right: 1px;
+}
+
+.secondary-btn {
+  border: solid #fff;
+  width: 250px;
+  height: 70px;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
 }
 
 /* Services  */
