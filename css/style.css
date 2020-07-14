@@ -111,10 +111,14 @@ img {
   padding: 5rem 0;
 }
 
+.text-container-rule {
+  display: none;
+}
+
 .intro-text-header {
   font-family: 'DM Serif Display', serif;
   padding: 20px 10px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 58px;
 }
 
@@ -294,18 +298,26 @@ img {
     padding-bottom: 0;
     height: 70px;
     align-items: center;
+    padding: 50px 0;
   }
   .main-nav {
     display: flex;
     margin-right: 30px;
     flex-direction: row;
     justify-content: flex-end;
+    background-image: none;
+    padding: 0;
+    margin: 0;
   }
   .main-nav li {
     margin: 0;
   }
   .nav-links {
     margin-left: 40px;
+    color: #2d2640;
+  }
+  .nav-links-container {
+    background-color: transparent;
   }
   .logo {
     margin-top: 0;
@@ -316,7 +328,86 @@ img {
   .logo:hover, .nav-links:hover {
     color: rgba(255, 255, 255, 1);
   }
+  .secondary-btn {
+    border: solid #2d2640;
+    color: #2d2640;
+  }
+  .intro {
+    position: relative;
+  }
+  .intro-image-container {
+    position: absolute;
+    width: 400px;
+    top: 20rem;
+    right: 10px;
+    z-index: 1;
+  }
+  .intro-text-container {
+    text-align: left;
+    padding-left: 6rem;
+    background-image: url(../images/bg-pattern-intro-right-desktop.svg);
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .intro-text-paragraph {
+    max-width: 50%;
+  }
+  .text-container-rule {
+    display: block;
+    width: 200px;
+    margin-left: 14px;
+  }
+  .services-horizontal-rule {
+    margin: 5rem 9rem 2rem 6rem;
+    width: 200px;
+  }
+  .services-header {
+    text-align: left;
+    padding: 20px 10px 20px 6rem
+  }
   .services-card-container {
     flex-direction: row;
+    padding: 0px 6rem;
+  }
+  .services-card {
+    text-align: left;
+  }
+  .services-how-we-work {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 8rem;
+    background-image: url(../images/bg-pattern-how-we-work-desktop.svg);
+    align-items: center;
+  }
+  .how-we-work-header {
+    font-size: 40px;
+    text-align: left;
+    width: 70%;
+  }
+  .footer-section {
+    background-image: url(../images/bg-pattern-footer-desktop.svg);
+    background-position: top left;
+    background-size: unset;
+    padding: 5rem 8rem 0 8rem;
+  }
+  .footer-top {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .footer-header {
+    text-align: left;
+    width: 50%;
+  }
+  .footer-bottom {
+    flex-direction: row;
+  }
+  .footer-card {
+    width: 25%;
+    padding: 2%;
+  }
+  .footer-social-links {
+    text-align: left;
+    width: 50%;
   }
 }
